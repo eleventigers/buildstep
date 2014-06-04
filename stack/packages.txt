@@ -33,6 +33,7 @@ libxml2-dev
 libxslt-dev
 mercurial
 mesa-common-dev
+mesa-utils
 mysql-client
 netcat-openbsd
 nodejs
