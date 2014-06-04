@@ -13,6 +13,7 @@ git
 imagemagick
 iputils-tracepath
 libav-tools
+libavcodec-extra-53
 libcurl4-openssl-dev
 libevent-dev
 libglib2.0-dev
