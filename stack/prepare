@@ -25,3 +25,13 @@ xargs -L 1 git clone --depth=1 < /build/buildpacks.txt
 update-alternatives --set ruby /usr/bin/ruby1.9.1
 update-alternatives --set gem /usr/bin/gem1.9.1
 gem install bundler
+
+# GLFW3 built from source
+GLFW3_URL="https://github.com/glfw/glfw/archive/3.0.4.tar.gz"
+curl -L --silent $GLFW3_URL | tar xzf - -C /build
+cd /build/glfw-3.0.4
+mkdir -p build
+cd build
+cmake .. -DBUILD_SHARED_LIBS=on
+make
+make install
