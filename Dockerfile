@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:saucy
 MAINTAINER eleventigers "phonodelik@gmail.com"
 
 RUN mkdir /build
