@@ -1,11 +1,14 @@
 autoconf
 bind9-host
 bison
+binutils
 build-essential
+cmake
 curl
 daemontools
 dnsutils
 ed
+freeglut3-dev
 git
 imagemagick
 iputils-tracepath
@@ -14,6 +17,8 @@ libevent-dev
 libglib2.0-dev
 libjpeg-dev
 libjpeg62
+libglu1-mesa-dev
+libgtk2.0-0
 libpng12-0
 libpng12-dev
 libmagickcore-dev
@@ -27,6 +32,7 @@ libssl0.9.8
 libxml2-dev
 libxslt-dev
 mercurial
+mesa-common-dev
 mysql-client
 netcat-openbsd
 nodejs
@@ -34,6 +40,7 @@ openjdk-6-jdk
 openjdk-6-jre-headless
 openssh-client
 openssh-server
+pkg-config
 postgresql
 postgresql-server-dev-9.1
 python-dev
@@ -42,9 +49,9 @@ rubygems
 socat
 sqlite3
 telnet
+twm
 zlib1g-dev
-cmake
 xorg-dev
-libglu1-mesa-dev
-freeglut3-dev
-mesa-common-dev
+x11vnc
+x-window-system
+
