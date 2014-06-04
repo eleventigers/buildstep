@@ -1,4 +1,4 @@
-FROM ubuntu:quantal
+FROM ubuntu:trusty
 MAINTAINER eleventigers "phonodelik@gmail.com"
 
 RUN mkdir /build
