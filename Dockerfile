@@ -1,5 +1,5 @@
 FROM ubuntu:quantal
-MAINTAINER progrium "phonodelik@gmail.com"
+MAINTAINER eleventigers "phonodelik@gmail.com"
 
 RUN mkdir /build
 ADD ./stack/ /build
