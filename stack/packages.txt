@@ -15,10 +15,13 @@ iputils-tracepath
 libav-tools
 libavcodec-extra-53
 libcurl4-openssl-dev
+libeigen3-dev
 libevent-dev
 libglib2.0-dev
 libjpeg-dev
 libjpeg62
+libglew-dev
+libglm-dev
 libglu1-mesa-dev
 libgtk2.0-0
 libpng12-0
