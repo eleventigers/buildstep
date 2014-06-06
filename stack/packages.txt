@@ -3,6 +3,7 @@ bind9-host
 bison
 binutils
 build-essential
+checkinstall
 cmake
 curl
 daemontools
@@ -17,6 +18,7 @@ libavcodec-extra-53
 libcurl4-openssl-dev
 libeigen3-dev
 libevent-dev
+libfaac-dev
 libglib2.0-dev
 libjpeg-dev
 libjpeg62
@@ -36,6 +38,19 @@ libssl-dev
 libssl0.9.8
 libxml2-dev
 libxslt-dev
+libx264-dev
+libgpac-dev
+libjack-jackd2-dev
+libmp3lame-dev
+libopencore-amrnb-dev
+libopencore-amrwb-dev
+libsdl1.2-dev
+libtheora-dev 
+libva-dev 
+libvdpau-dev 
+libvorbis-dev 
+libx11-dev
+libxfixes-dev 
 mercurial
 mesa-common-dev
 mesa-utils
@@ -55,7 +70,9 @@ rubygems
 socat
 sqlite3
 telnet
+texi2html 
 twm
+yasm 
 zlib1g-dev
 xorg-dev
 x11vnc
