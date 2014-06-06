@@ -14,6 +14,7 @@ git
 imagemagick
 iputils-tracepath
 libav-tools
+libass-dev
 libavcodec-extra-53
 libcurl4-openssl-dev
 libeigen3-dev
@@ -38,10 +39,10 @@ libssl-dev
 libssl0.9.8
 libxml2-dev
 libxslt-dev
-libx264-dev
 libgpac-dev
 libjack-jackd2-dev
 libmp3lame-dev
+libopus-dev
 libopencore-amrnb-dev
 libopencore-amrwb-dev
 libsdl1.2-dev
