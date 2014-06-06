@@ -3,6 +3,10 @@
 # Prepares the "stack" to run apps and the environment to run buildpacks
 #
 
+echo 'deb http://us.archive.ubuntu.com/ubuntu/ saucy-updates multiverse' >> /etc/apt/sources.list
+echo 'deb-src http://us.archive.ubuntu.com/ubuntu/ saucy-updates multiverse' >> /etc/apt/sources.list
+echo 'deb http://archive.ubuntu.com/ubuntu saucy main restricted universe multiverse' >> /etc/apt/sources.list
+
 #
 # SYSTEM PACKAGES
 #
