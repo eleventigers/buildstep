@@ -76,3 +76,17 @@ make -j8
 make install
 make distclean
 hash -r
+
+mkdir -p ~/glew_sources
+
+cd ~/glew_sources
+wget https://sourceforge.net/projects/glew/files/glew/1.10.0/glew-1.10.0.tgz/download
+tar -xzvf download
+cd glew-1.10.0
+make -j8
+make install
+make clean
+hash -r 
+
+echo '/usr/lib64/' >> /etc/ld.so.conf
+ldconfig
