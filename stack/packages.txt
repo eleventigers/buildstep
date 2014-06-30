@@ -11,6 +11,7 @@ dnsutils
 ed
 freeglut3-dev
 git
+graphicsmagick
 imagemagick
 iputils-tracepath
 libav-tools
