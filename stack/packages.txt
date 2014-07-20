@@ -1,4 +1,5 @@
 autoconf
+automake
 bind9-host
 bison
 binutils
@@ -11,7 +12,9 @@ dnsutils
 ed
 freeglut3-dev
 git
+gobject-introspection
 graphicsmagick
+gtk-doc-tools
 imagemagick
 iputils-tracepath
 libav-tools
@@ -20,9 +23,11 @@ libavcodec-extra-53
 libcurl4-openssl-dev
 libeigen3-dev
 libevent-dev
+libexif-dev
 libfaac-dev
 libglib2.0-dev
 libjpeg-dev
+libjpeg-turbo8-dev
 libjpeg62
 libglm-dev
 libglu1-mesa-dev
@@ -49,7 +54,8 @@ libsdl1.2-dev
 libtheora-dev 
 libva-dev 
 libvdpau-dev 
-libvips-dev
+libwebp-dev
+libtiff5-dev
 libvorbis-dev 
 libx11-dev
 libxfixes-dev 
@@ -71,6 +77,7 @@ ruby1.9.1-dev
 rubygems
 socat
 sqlite3
+swig
 telnet
 texi2html 
 twm
