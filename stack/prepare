@@ -31,6 +31,16 @@ update-alternatives --set ruby /usr/bin/ruby1.9.1
 update-alternatives --set gem /usr/bin/gem1.9.1
 gem install bundler
 
+# libvips built from source
+git clone https://github.com/jcupitt/libvips.git
+cd libvips
+git checkout 7.38
+./bootstrap.sh
+./configure --enable-debug=no --enable-cxx=yes --without-python --without-orc --without-fftw
+make -j8
+make install
+make distclean
+
 # GLFW3 built from source
 GLFW3_URL="https://github.com/glfw/glfw/archive/3.0.4.tar.gz"
 curl -L --silent $GLFW3_URL | tar xzf - -C /build
@@ -38,8 +48,9 @@ cd /build/glfw-3.0.4
 mkdir -p build
 cd build
 cmake .. -DBUILD_SHARED_LIBS=on
-make
+make -j8
 make install
+make clean
 
 mkdir -p ~/ffmpeg_sources
 mkdir -p ~/ffmpeg_build
