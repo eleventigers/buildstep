@@ -49,6 +49,7 @@ libsdl1.2-dev
 libtheora-dev 
 libva-dev 
 libvdpau-dev 
+libvips-dev
 libvorbis-dev 
 libx11-dev
 libxfixes-dev 
